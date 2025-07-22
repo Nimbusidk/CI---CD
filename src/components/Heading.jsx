@@ -6,7 +6,7 @@ export const Heading = () => {
     <div>
       <div className="flex items-center mb-10">
         <Link to="/">
-          <h5 className="text-gray-100 font-bold text-2xl">Employee Listing</h5>
+          <h5 className="text-gray-100 font-bold text-2xl">Lista de tareas</h5>
         </Link>
         <div className="flex-grow text-right px-4 py-2 m-2">
           <Link to="/add">
@@ -27,7 +27,7 @@ export const Heading = () => {
                 <line x1="12" y1="8" x2="12" y2="16"></line>
                 <line x1="8" y1="12" x2="16" y2="12"></line>
               </svg>
-              <span className="pl-2">Add Employee</span>
+              <span className="pl-2">Agregar Tarea</span>
             </button>
           </Link>
         </div>
