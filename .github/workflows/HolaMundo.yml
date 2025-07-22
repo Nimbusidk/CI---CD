@@ -16,3 +16,13 @@ jobs:
 
       - name: Usar Node.js
         run: echo "¡Hola Mundo!"
+      
+      - name: instalando
+        run: npm install -g html-validator-cli
+
+      - name: validator HTML   
+        run: html-validator --file=dist/index.html --verbose
+
+      - name: Validar CSS
+        run: npx css-validator --file=dist\assets\index-0bb75f0b.css
+
